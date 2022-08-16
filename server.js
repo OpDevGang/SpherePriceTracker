@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
 })
 
 //function keepAlive() {
-    app.listen(3000, () => { console.log('Server is online!')})
+app.listen(3000, () => { console.log('Server is online!')})
 //}
 
 //module.exports = keepAlive;
