@@ -3,6 +3,7 @@ const app = express();
 
 app.get('/', (req, res) => {
     res.setHeader('Content-Type', 'text/html');
+    res.write('<p>Gang</p>')
     res.send('Hello World')
     res.end();
 })
