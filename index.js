@@ -1,7 +1,7 @@
 const { Client, GatewayIntentBits } = require('discord.js');
 const fetch = require('cross-fetch');
 require('dotenv').config();
-const keepAlive = require('./server')
+//const keepAlive = require('./server')
 
 
 // Create a new client instance
@@ -54,6 +54,6 @@ client.on('ready', async () => {
 });
 
 
-keepAlive();
+//keepAlive();
 // Login to Discord with your client's token
 client.login(process.env.TOKEN);
